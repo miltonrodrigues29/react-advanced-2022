@@ -1,16 +1,17 @@
-import React from 'react';
+import React from "react";
 
 const ErrorExample = () => {
-  let title = 'random title';
+  let title = "random title";
 
   const handleClick = () => {
-    title = 'hello people';
-    console.log(title);
+    console.log(`Before click:${title}`);
+    title = "random people";
+    console.log(`after click:${title}`);
   };
   return (
     <React.Fragment>
       <h2>{title}</h2>
-      <button type='button' className='btn' onClick={handleClick}>
+      <button type="button" className="btn" onClick={handleClick}>
         change title
       </button>
     </React.Fragment>
