@@ -15,9 +15,15 @@ const UseEffectBasics = () => {
 
   useEffect(()=>
   {
+    
     console.log("Render Use Effect")
-    document.title = `New Messages(${value})`
-  })
+    if(value>=1){
+      document.title = `New Messages(${value})`
+
+ 
+    }
+    
+  },[value])
 
   
   return <>
