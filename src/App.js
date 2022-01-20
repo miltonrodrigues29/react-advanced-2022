@@ -1,6 +1,6 @@
 import React from "react";
 
-import Setup from "./tutorial/3-conditional-rendering/final/2-short-circuit";
+import Setup from "./tutorial/4-forms/final/1-controlled-inputs";
 
 function App() {
   return (
